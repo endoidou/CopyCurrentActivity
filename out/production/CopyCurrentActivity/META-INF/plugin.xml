@@ -1,0 +1,42 @@
+<idea-plugin version="2">
+    <id>com.endoidou.copy_current_activity</id>
+    <name>Copy Current Activity</name>
+    <version>1.0</version>
+    <vendor email="idou.endo@gmail.com" url="https://github.com/endoidou/OpenCurrentActivity">Copy Current Activity
+    </vendor>
+
+    <description><![CDATA[
+      Plugin for Android Studio.
+      You can copy current Activity name of connecting Android device.
+    ]]></description>
+
+    <change-notes><![CDATA[
+      First version released.
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="145.0"/>
+
+    <depends>org.jetbrains.android</depends>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="CopyCurrentActivityAction" class="template.CopyCurrentActivityAction" text="Copy Current Activity"
+                description="Copy Current Activity">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl meta C"/>
+        </action>
+    </actions>
+
+</idea-plugin>
