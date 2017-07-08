@@ -1,1 +1,1 @@
-# OpenCurrentActivity
+# CopyCurrentActivity
