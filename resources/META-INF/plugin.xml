@@ -1,13 +1,17 @@
 <idea-plugin version="2">
     <id>com.endoidou.copy_current_activity</id>
     <name>Copy Current Activity</name>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <vendor email="idou.endo@gmail.com" url="https://github.com/endoidou/CopyCurrentActivity">Copy Current Activity
     </vendor>
 
     <description><![CDATA[
       Plugin for Android Studio.
       You can copy current Activity name of connecting Android device.
+
+      If you use Mac OS, you can copy cmd + ctrl + c.
+
+      Please change short cut for Windows.
     ]]></description>
 
     <change-notes><![CDATA[
